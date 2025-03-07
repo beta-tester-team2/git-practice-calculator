@@ -1,7 +1,14 @@
 package dev.friox;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("===============계산기============");
+import java.util.Scanner;
+
+class Sum {
+    private int a, b, sum;
+
+    public int Sum(int a, int b) {
+        this.a = a;
+        this.b = b;
+        sum = a + b;
+        return sum;
     }
 }
